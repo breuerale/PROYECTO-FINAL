@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  font-family: 'Dancing Script', cursive ,sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.menu1 {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase; }
+  .menu1 li:hover, .menu1 li:active {
+    background-color: #c81ace;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease all;
+    border-radius: 5px; }
+  .menu1 li a {
+    color: #130202;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: larger; }
+
+.logo {
+  width: 100%;
+  padding-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; }
+
+.menu2 {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase; }
+  .menu2 li:hover, .menu2 li:active {
+    background-color: #c81ace;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease all;
+    border-radius: 5px; }
+  .menu2 li a {
+    color: #130202;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: larger; }
+
+* {
+  font-family: 'Dancing Script', cursive ,sans-serif;
+  margin: 0;
+  padding: 0; }
+
+main .seccion1 h1 {
+  margin-top: 2%;
+  text-align: center;
+  text-transform: uppercase; }
+
+main .seccion1 h2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px; }
+
+.carrusel div .baileys {
+  height: 700px; }
+
+.carrusel div .baileys-texto {
+  color: red;
+  font-size: x-large; }
+  .carrusel div .baileys-texto h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .carrusel div .baileys-texto p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.carrusel div .coquitorta {
+  height: 700px; }
+
+.carrusel div .coquitorta-texto {
+  color: red;
+  font-size: x-large; }
+
+.carrusel div h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.carrusel div p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.carrusel div .maracuya {
+  height: 700px; }
+
+.carrusel div .maracuya-texto {
+  color: red;
+  font-size: x-large; }
+
+.carrusel div h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.carrusel div p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+main div .seccion2 .fservicios {
+  display: flex; }
+  main div .seccion2 .fservicios .tortasPostres {
+    width: 200px;
+    height: 200px; }
+  main div .seccion2 .fservicios .mesadulce {
+    width: 200px;
+    height: 200px; }
+  main div .seccion2 .fservicios .boxes {
+    width: 200px;
+    height: 200px; }
+
+.prod-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .prod-1 .contenedor-productos {
+    display: flex;
+    justify-content: space-between; }
+    .prod-1 .contenedor-productos .titulo-productos {
+      margin-top: 4%;
+      text-transform: uppercase; }
+  .prod-1 .contenedor-barra {
+    display: flex;
+    justify-content: flex-end;
+    height: 50%; }
+
+.prod-card {
+  justify-content: space-around;
+  padding: 5px; }
+
+section h1 {
+  margin-top: 2%;
+  text-align: center;
+  text-transform: uppercase; }
+
+fieldset .cabeza {
+  color: blueviolet;
+  font-size: 27px;
+  padding: 10px; }
+
+fieldset div .bigicon {
+  font-size: 35px;
+  color: pink; }
+
+fieldset div .boton {
+  background-color: pink;
+  color: blueviolet; }
+
+section div .nosotras-titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  section div .nosotras-titulos h1 {
+    margin-top: 2%;
+    text-align: center;
+    text-transform: uppercase; }
+
+section div .nosotras-textos {
+  display: flex;
+  flex-direction: column;
+  background-color: lavenderblush; }
+  section div .nosotras-textos p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; }
+
+section div .nosotras-titulos2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+section div .nosotras-textos2 {
+  display: flex;
+  flex-direction: column;
+  background-color: lavenderblush; }
+  section div .nosotras-textos2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; }
+
+section div .nosotras-titulos3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+section div .nosotras-textos3 {
+  display: flex;
+  flex-direction: column;
+  background-color: lavenderblush; }
+  section div .nosotras-textos3 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; }
+
+section .ubicacion-fila .ubicacion-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  section .ubicacion-fila .ubicacion-contenedor h1 {
+    margin-top: 2%;
+    text-align: center;
+    text-transform: uppercase; }
+  section .ubicacion-fila .ubicacion-contenedor .parrafoubi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+section .titulo-novedades-1 {
+  margin-top: 2%;
+  text-align: center;
+  text-transform: uppercase; }
+
+div div .tortamixta-texto {
+  color: red;
+  font-size: x-large; }
+
+div div .tortachoco-texto {
+  color: red;
+  font-size: x-large; }
+
+div div .havanet-texto {
+  color: red;
+  font-size: x-large; }
+
+section .titulo-novedades-2 {
+  text-align: center;
+  text-transform: uppercase; }
+
+div div .box1-texto {
+  color: red;
+  font-size: x-large; }
+
+div div .box2-texto {
+  color: red;
+  font-size: x-large; }
+
+div div .rogel-texto {
+  color: red;
+  font-size: x-large; }
+
+* {
+  font-family: 'Dancing Script', cursive ,sans-serif;
+  margin: 0;
+  padding: 0; }
+
+footer {
+  margin-top: 2%;
+  background-color: lavenderblush; }
+  footer div {
+    align-items: baseline; }
+    footer div .contenedor-formulario, footer div .contenedor-pie .pie, footer div div .redes {
+      display: flex;
+      align-items: center; }
+    footer div .contenedor-pie .pie {
+      flex-direction: row;
+      justify-content: center;
+      text-transform: uppercase; }
+    footer div div .redes {
+      justify-content: space-evenly; }

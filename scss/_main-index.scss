@@ -1,0 +1,105 @@
+//Realizo lo que seria el main de index
+
+*{
+    font-family: 'Dancing Script', cursive ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    .seccion1{
+        h1{
+            margin-top: 2%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+        }
+    }
+}
+
+
+//Realizo la seccion1 con el carousel
+//Le agrego un mapa
+
+$tortas:(
+    tamaño:700px,
+    colorete:red,
+    letra:x-large
+);
+
+
+.carrusel{
+    div{
+        .baileys{
+            height: map-get($tortas,tamaño);
+        }
+        .baileys-texto{
+            color:map-get($tortas,colorete);
+            font-size: map-get($tortas,letra);
+            h3{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+    div{
+        .coquitorta{
+            height: map-get($tortas,tamaño);
+        }
+        .coquitorta-texto{
+            color:map-get($tortas,colorete);
+            font-size: map-get($tortas,letra);
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    div{
+        .maracuya{
+            height: map-get($tortas,tamaño);
+        }
+        .maracuya-texto{
+            color:map-get($tortas,colorete);
+            font-size: map-get($tortas,letra);
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
+
+main{
+    div{
+        .seccion2{
+            .fservicios{
+                display: flex;
+                .tortasPostres{
+                    width: 200px;
+                    height: 200px;
+                }
+                .mesadulce{
+                    width: 200px;
+                    height: 200px;
+                }
+                .boxes{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+    }
+    
+}

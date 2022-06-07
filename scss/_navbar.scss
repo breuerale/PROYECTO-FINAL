@@ -1,0 +1,77 @@
+//Hago todo lo relativo al navbar, anido etiquetas
+
+*{
+    font-family: 'Dancing Script', cursive ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+//Mixing
+//Con parametro
+@mixin lis($font-al,$font-t,$bord,$cursor,$texto,$transicion,$borde){
+    font-weight:$font-al;
+    font-size:$font-t;
+    border:$bord;
+    cursor:$cursor;
+    text-transform:$texto;
+    transition:$transicion;
+    border-radius:$borde;
+}
+
+//Sin parametro
+
+@mixin as{
+    color:$colorAnchor;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+@mixin menus{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.menu1 {
+    @include menus;
+
+    li {
+        &:hover,
+        &:active {
+            background-color: $colorHover;
+            @include lis(500, large, none, pointer, uppercase, .3s ease all, 5px)
+        }
+        a {
+            @include as;
+        }
+    }
+}
+
+.logo{
+    width: 100%;
+    padding-top: 10px;
+    width: 150px ;
+    height:150px ;
+    border-radius: 50%;
+}
+
+
+.menu2 {
+    @include menus;
+
+    li {
+        &:hover,
+        &:active {
+            background-color: $colorHover;
+            @include lis(500, large, none, pointer, uppercase, .3s ease all, 5px)
+        }
+        a {
+            @include as;
+        }
+    }
+}

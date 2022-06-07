@@ -1,0 +1,15 @@
+//Llamo a los otros archivos .scss, los importo aca para que figuren es estilo.css
+//El orde como importo los scss es como apareceran en mi estilo.css
+//Lo mejor es importar primero las variables!
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import "variables";
+@import "navbar";
+@import"main-index";
+@import"main-productos";
+@import"main-contacto";
+@import"main-nosotras";
+@import"main-ubicacion";
+@import"main-novedades";
+@import "footer";
+
+
