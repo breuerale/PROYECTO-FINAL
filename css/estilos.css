@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Le doy Estilos a los elementos dentro del Header(NAVBAR) */
+
+.menu1{
+    list-style-type: none;
+    color: rgb(19, 2, 2);
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.menu1 li:hover, li :active{
+    background-color: rgb(200, 26, 206);
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+
+
+.logotipo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100%;
+    padding-top: 10px;
+    width: 150px ;
+    height:150px ;
+    border-radius: 50%;
+}
+
+.menu2{
+
+    list-style-type: none;
+
+    color: rgb(19, 2, 2);
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.menu2 li:hover, li :active{
+    background-color: rgb(200, 26, 206);
+    transition: 0.4s;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+/* Titulo Index */
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Le doy un tamaño distinto a las imagenes dentro del slider, solamente les cambio la altura
+si les cambio el ancho desde aca no pasa nada, no quedo como queria */
+.baileys{
+    height: 700px;
+}
+
+.coquitorta{
+    height: 700px;
+}
+
+.maracuya{ 
+    height: 700px;
+}
+
+/* Al texto dentro del slider le cambio el color y el tamaño de las letras */
+.baileys-texto{
+    color: red;
+    font-size: x-large;
+}
+
+.coquitorta-texto{
+    color: red;
+    font-size: x-large;
+}
+.maracuya-texto{
+    color: red;
+    font-size: x-large;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo3{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+/* Imagenes */
+
+.mesadulce{
+    width: 200px;
+    height: 200px;
+}
+
+.tortasPostres{
+    width: 200px;
+    height: 200px;
+}
+
+.boxes{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+/* Hago el Footer */
+
+.footer{
+    margin-top: 2%;
+    background-color: lavenderblush;
+}
+
+.contenedor-footer{
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+.fila-footer{
+    align-items: baseline;
+    
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-formulario{
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redes-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+/* Media Querie vista mobile de 0px a 764px */
+/* Vista Tablet de 765px a 1023px */
+/* Vista Desktop desde 1024px en adelante */
+
+/* Realizo una media querie para vista mobile */
+@media only screen and (max-width:768px){
+    /* Adentro de Aca va todo el contenido que quiero que cambie cunado es mobile*/
+    /* Header(Lo unico que hago con media queries, lo otro lo realizo con bootstrap */
+    *{
+            font-family: 'Dancing Script', cursive ,sans-serif;
+            margin: auto;
+            padding: auto;
+    }
+    /* Grid NAVBAR */
+    .gridEncabezado{
+        display: grid;
+        grid-template-areas:"logotipo logotipo "
+                            "menue1 menue2"
+                            "iconos iconos";
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto;
+    }
+
+    /* Establezco los grid-area */
+
+    .menue1{
+        grid-area: menue1;
+    }
+
+    .logotipo{
+        grid-area: logotipo;
+    }
+
+    .menue2{
+        grid-area: menue2;
+    }
+
+    .iconos{
+        grid-area:iconos ;
+    }
+
+    /* Le doy Estilos a los elementos dentro del Header(NAVBAR) */
+
+    .menu1{
+        display: flex;
+
+    }
+
+    .menu1 li:hover, li :active{
+        background-color: rgb(200, 26, 206);
+        font-weight: 500;
+        font-size: small;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .3s ease all;
+        border-radius: 2px;
+    }
+
+    .nav1 a{
+        color: rgb(19, 2, 2);
+        text-decoration: none;
+        font-size: small;
+        text-transform: uppercase;
+    }
+
+
+    .logotipo{
+        display: flex;
+    }
+
+    img.logo{
+        border-radius: 50%;
+    }
+
+    .menu2{
+        display: flex;
+
+    }
+
+    .menu2 li:hover, li :active{
+        background-color: rgb(200, 26, 206);
+        transition: 0.4s;
+        font-weight: 500;
+        font-size: small;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .3s ease all;
+        border-radius: 2px;
+    }
+
+    .nav2 a{
+        color: rgb(19, 2, 2);
+        text-decoration: none;
+        font-size: small;
+        text-transform: uppercase;
+        font-size: small;
+    }
+
+    
+
+}
+/* Productos */
+
+/*Ordeno el contenido con flexbox  */
+
+/* Primer section */
+/* .prod{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Cada row tendra un nombre distinto(clase) para ubicarlas mejor */
+
+/* Fila: Titulo y barra de busqueda*/
+.prod-1{
+    display: flex;
+    justify-content: space-between;
+} 
+
+/* Contenedores titulo y barra de busqueda*/
+.contenedor-productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-barra{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Titulo "Productos" */
+.titulo-productos{
+        text-transform: uppercase;
+}
+
+/* Filas de las cards (3 filas) */
+.prod-card{
+    justify-content: space-around;
+}
+
+
+/* Reseñas */
+
+.reseñas-titulos{
+    display: flex;
+    flex-direction: column;
+}
+
+.reseñas-textos{
+    display: grid;
+
+    background-color: lavenderblush;
+}
+
+.reseñas-textos p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Contacto */
+.cabeza {
+    color: blueviolet;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color:pink
+}
+
+.boton{
+    background-color: pink;
+    color: blueviolet;
+}
+
+/* Ubicacion */
+.ubicacion-fila{
+    margin: 3%;
+}
+
+.ubicacion-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Novedades */
+
+.titulo-novedades-1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* Al texto dentro del slider le cambio el color y el tamaño de las letras */
+.tortamixta-texto{
+    color: red;
+    font-size: x-large;
+}
+
+.tortachoco-texto{
+    color: red;
+    font-size: x-large;
+}
+.havanet-texto{
+    color: red;
+    font-size: x-large;
+}
+
+
+
+.titulo-novedades-2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* Al texto dentro del slider le cambio el color y el tamaño de las letras */
+.box1-texto{
+    color: red;
+    font-size: x-large;
+}
+
+.box2-texto{
+    color: red;
+    font-size: x-large;
+}
+.rogel-texto{
+    color: red;
+    font-size: x-large;
+}
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/171eea792d.js" crossorigin="anonymous"></script>
+    <!-- Linkeo Bootstrap siempre primero, es decir, antes de mi hoja de estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lavenderblush;">
+            <div class="container">
+                <a class="navbar-brand navbar-toggler" href="#">
+                    <img class="logo" src="../assets/image/logo.jpg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html"><b>Inicio</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="novedades.html"><b>Novedades</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html"><b>Contacto</b></a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a class="navbar-brand collapse navbar-collapse " href="index.html">
+                            <img class="logo" src="../assets/image/logo.jpg" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html"><b>Ubicacion</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html"><b>Productos</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reseñas.html"><b>Reseñas</b></a>
+                        </li>
+                        </li>
+                    </ul>
+                    <div class="iconos">
+                        <i class="fa-solid fa-right-to-bracket "></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Este formulario lo saque de internet, se agrego formspree -->
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="well well-sm">
+                        <form action="https://formspree.io/f/xrbgkdgz" class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center cabeza"><b>Contactate</legend>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-lg-4">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre Completo" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-lg-4">
+                                        <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-lg-4">
+                                        <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-lg-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Ingresa tu mensaje" rows="7"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-md boton">Enviar</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=""></section>
+    
+    </main>
+    <footer class="container-fluid footer">
+        <div class="row fila-footer">
+            <div class="col-lg-4 col-12 contenedor-formulario">
+                <h3>Noticias!:</h3>
+                <div class="formulario">
+                    <form class="form" action="">
+                        <label for="">Ingresa tu email y recibi todas las novedades!</label>
+                        <input type="email" name="email" id="">
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 contenedor-pie">
+                <div class="pie">
+                    <p class="derechos">
+                        <b>Merak Sweet©2024 Todos los Derechos reservados </b>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="redes">
+                    <h2 class="redes-titulo">Redes:</h2>
+                    <i class="fa-brands fa-instagram-square fa-xl"></i>
+                    <i class="fa-brands fa-whatsapp-square fa-xl"></i>
+                    <i class="fa-brands fa-facebook-square fa-xl"></i>
+                    <i class="fa-brands fa-twitter-square fa-xl"></i>
+                    <i class="fa-brands fa-pinterest-square fa-xl"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

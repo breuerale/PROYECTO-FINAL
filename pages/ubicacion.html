@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/171eea792d.js" crossorigin="anonymous"></script>
+    <!-- Linkeo Bootstrap siempre primero, es decir, antes de mi hoja de estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Reseñas</title>
+</head>
+
+<body>
+    <!-- Uso la clase container-fluid que ocupa el 100% del ancho del dispositivo -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lavenderblush;">
+            <div class="container">
+                <a class="navbar-brand navbar-toggler" href="#">
+                    <img class="logo" src="../assets/image/logo.jpg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html"><b>Inicio</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="novedades.html"><b>Novedades</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html"><b>Contacto</b></a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a class="navbar-brand collapse navbar-collapse " href="index.html">
+                            <img class="logo" src="../assets/image/logo.jpg" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html"><b>Ubicacion</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html"><b>Productos</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reseñas.html"><b>Reseñas</b></a>
+                        </li>
+                        </li>
+                    </ul>
+                    <div class="iconos">
+                        <i class="fa-solid fa-right-to-bracket "></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 reseñas-titulos">
+                    <h1>Reseñas</h1>
+                    <h2>Nuestros clientes dicen:</h2>
+                </div>
+
+                <div class="col-12 reseñas-textos">
+                    <div>
+                        <img class="logo" src="../assets/image/sakuragi pin.webp" alt="logo">
+                        <p class="seccion-texto1">
+                            Mark Twain: Se nota que los productos son de primera calidad.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="logo" src="../assets/image/avatar1.png" alt="logo">
+                        <p class="seccion-texto2">
+                            John Tobias: Quede enamorado de las delicias de este emprendimiento.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="logo" src="../assets/image/avatar1.png" alt="logo">
+                        <p class="seccion-texto3">
+                            Sthephen Curry: No puedo creer que exista este lugar, increbles tortas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid footer">
+        <div class="row fila-footer">
+            <div class="col-lg-4 col-12 contenedor-formulario">
+                <h3>Noticias!:</h3>
+                <div class="formulario">
+                    <form class="form" action="">
+                        <label for="">Ingresa tu email y recibi todas las novedades!</label>
+                        <input type="email" name="email" id="">
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 contenedor-pie">
+                <div class="pie">
+                    <p class="derechos">
+                        <b>Merak Sweet©2024 Todos los Derechos reservados </b>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="redes">
+                    <h2 class="redes-titulo">Redes:</h2>
+                    <i class="fa-brands fa-instagram-square fa-xl"></i>
+                    <i class="fa-brands fa-whatsapp-square fa-xl"></i>
+                    <i class="fa-brands fa-facebook-square fa-xl"></i>
+                    <i class="fa-brands fa-twitter-square fa-xl"></i>
+                    <i class="fa-brands fa-pinterest-square fa-xl"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
