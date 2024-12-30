@@ -15,17 +15,19 @@
 
 <body>
     <!-- Uso la clase container-fluid que ocupa el 100% del ancho del dispositivo -->
-    <header>
+    <header> 
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lavenderblush;">
             <div class="container">
-                <a class="navbar-brand navbar-toggler" href="#">
+                <!-- Logo y botón de navegación móvil -->
+                <a class="navbar-brand navbar-toggler" href="/index.html">
                     <img class="logo" src="../assets/image/logo.jpg" alt="logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu1">
                         <li class="nav-item">
@@ -38,14 +40,18 @@
                             <a class="nav-link" href="contactos.html"><b>Contacto</b></a>
                         </li>
                     </ul>
+    
+
                     <div>
-                        <a class="navbar-brand collapse navbar-collapse " href="index.html">
+                        <a class="navbar-brand" href="index.html">
                             <img class="logo" src="../assets/image/logo.jpg" alt="logo">
                         </a>
                     </div>
+    
+
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu2">
                         <li class="nav-item">
-                            <a class="nav-link" href="ubicacion.html"><b>Ubicacion</b></a>
+                            <a class="nav-link" href="ubicacion.html"><b>Ubicación</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="productos.html"><b>Productos</b></a>
@@ -53,11 +59,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="reseñas.html"><b>Reseñas</b></a>
                         </li>
-                        </li>
                     </ul>
+    
+
                     <div class="iconos">
-                        <i class="fa-solid fa-right-to-bracket "></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        <i class="fa-solid fa-right-to-bracket" style="font-size: 1.5rem; cursor: pointer;"></i>
+                        
+
+                        <a href="carrito.html" class="cart-icon" id="cart-icon" style="position: relative; font-size: 1.5rem; cursor: pointer;">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -96,35 +108,40 @@
         </section>
     </main>
 
-    <footer class="container-fluid footer">
-        <div class="row fila-footer">
-            <div class="col-lg-4 col-12 contenedor-formulario">
-                <h3>Noticias!:</h3>
-                <div class="formulario">
-                    <form class="form" action="">
-                        <label for="">Ingresa tu email y recibi todas las novedades!</label>
-                        <input type="email" name="email" id="">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 text-center">
+                    <h3>¡Suscríbete para recibir novedades!</h3>
+                    <form action="" method="post">
+                        <input type="email" class="form-control" placeholder="Ingresa tu correo" required>
+                        <button type="submit" class="btn-subscribe">Suscribirse</button>
                     </form>
                 </div>
-            </div>
-            <div class="col-lg-4 col-12 contenedor-pie">
-                <div class="pie">
-                    <p class="derechos">
-                        <b>Merak Sweet©2024 Todos los Derechos reservados </b>
-                    </p>
+
+
+                <div class="col-md-4 text-center">
+                    <h2>¡Síguenos en nuestras redes!</h2>
+                    <div>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-12">
-                <div class="redes">
-                    <h2 class="redes-titulo">Redes:</h2>
-                    <i class="fa-brands fa-instagram-square fa-xl"></i>
-                    <i class="fa-brands fa-whatsapp-square fa-xl"></i>
-                    <i class="fa-brands fa-facebook-square fa-xl"></i>
-                    <i class="fa-brands fa-twitter-square fa-xl"></i>
-                    <i class="fa-brands fa-pinterest-square fa-xl"></i>
+
+
+                <div class="col-md-4 text-center">
+                    <h3>Merak Sweet</h3>
+                    <p>La mejor pastelería de la ciudad</p>
+                    <div class="dessert-icon">
+                        <i class="fas fa-cake"></i> 
+                    </div>
+                    <p>© 2024 Merak Sweet. Todos los derechos reservados.</p>
                 </div>
             </div>
         </div>
     </footer>
+
 
 </html>

@@ -132,50 +132,6 @@ h3{
 
 
 
-/* Hago el Footer */
-
-.footer{
-    margin-top: 2%;
-    background-color: lavenderblush;
-}
-
-.contenedor-footer{
-    flex-wrap: nowrap;
-    align-content: flex-end;
-    align-items: flex-end;
-}
-
-
-
-.fila-footer{
-    align-items: baseline;
-    
-}
-
-.pie{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.contenedor-formulario{
-    display: flex;
-    align-items: flex-end;
-    align-items: center;
-}
-
-.redes{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.redes-titulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-
 
 
 
@@ -419,7 +375,185 @@ h3{
 }
 
 
+/* Hago el Footer */
+
+.footer{
+    margin-top: 2%;
+    background-color: lavenderblush;
+}
+
+.contenedor-footer{
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
 
 
 
+.fila-footer{
+    align-items: baseline;
+    
+}
 
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-formulario{
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redes-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.footer {
+    background-color: lavenderblush; /* Rosa pastel */
+    padding: 40px 0;
+
+}
+.footer h3, .footer h2 {
+    font-family: 'Cursive', sans-serif;
+    color: #7a4b6f;
+}
+.footer .social-icon {
+    font-size: 1.8rem; 
+    color: #7a4b6f;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+.footer .social-icon:hover {
+    color: #f39c12; /* Color de hover */
+}
+.footer .form-control {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.footer .btn-subscribe {
+    background-color: #f39c12;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.footer .btn-subscribe:hover {
+    background-color: #e67e22;
+}
+.footer .dessert-icon {
+    font-size: 3rem;
+    color: #7a4b6f;
+
+}
+
+
+
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-icon {
+    position: relative;
+    display: inline-block;
+}
+
+#cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #f39c12;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.fa-cart-shopping {
+    font-size: 1.8rem;
+    color: #7a4b6f;
+}
+
+.fa-cart-shopping:hover {
+    color: #f39c12;
+}
+
+.fa-right-to-bracket {
+    font-size: 1.8rem;
+    color: #7a4b6f;
+}
+
+.fa-right-to-bracket:hover {
+    color: #f39c12;
+}
+
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;  /* Controlar la altura de las imágenes */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.titulo-productos {
+    font-size: 2rem;
+    text-align: center}
+
+
+
+    .card-custom {
+        border-radius: 15px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-custom-img {
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .card-custom-body {
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    
+    .card-title-custom {
+        font-family: 'Arial', sans-serif;
+        color: #333;
+    }
+    
+    .card-description {
+        font-size: 14px;
+        color: #555;
+    }
+    
+    .card-price {
+        font-size: 16px;
+        color: #e91e63;
+    }
+    
+    .btn-custom {
+        background-color: #ffb6c1;
+        color: white;
+        font-weight: bold;
+        border-radius: 25px;
+        padding: 10px 20px;
+        border: none;
+    }
